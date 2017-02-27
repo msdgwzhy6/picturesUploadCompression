@@ -78,9 +78,6 @@
     NSData *imageData = UIImageJPEGRepresentation(imaged, 1.0);
     NSLog(@"imageData:%zd",imageData.length);
 
-    CGFloat imageW =  imaged.size.width;
-    CGFloat imageH = imaged.size.height;
-    
     //这里保证图片清晰，500的宽差不多
    [self image2WithImg:imaged andImageWidth:500];
     
